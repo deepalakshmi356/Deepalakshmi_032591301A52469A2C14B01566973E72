@@ -3,7 +3,6 @@ def fact_rec(n):
     return 1
   else:
     return n*fact_rec(n-1)
-
 number = 2
 res = fact_rec(number)
 
